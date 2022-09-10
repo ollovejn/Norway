@@ -53,9 +53,8 @@ table {
 */
 header{
     display: flex;
-    
     align-items: center;
-    padding: 58px;
+    padding: 50px;
 }
 .nav-header ul li{
     display: inline; 
@@ -63,7 +62,7 @@ header{
 
 .header_textlogo{
     display: flex;
-    margin-right: 450px;
+    
     align-items: center;
 }
 
@@ -79,7 +78,7 @@ header{
     opacity: 0.9;
 }
 
-.nav_link {
+.nav_link{
     display: inline-block;
     vertical-align: middle;
     margin-right: 65px;
@@ -110,10 +109,12 @@ header{
         display: block;
         color: #FFFFFF;
         font-size: 25px;
-
+        margin-right: -10px;
+        
     }
 }
 
 .nav-header{
     width: 100%;
+    margin-left: 22%;
 }
