@@ -1,0 +1,316 @@
+/* CSS reset
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS reset обнуление стилей
+*/
+
+
+/* navigation header
+*/
+header{
+    display: flex;
+    align-items: center;
+    padding-left: 4%;
+    padding-top: 2.5%;
+    padding-right: 4.5%; 
+    padding-bottom: 13%;
+}
+.nav-header ul li{
+    display: inline; 
+}
+
+.header_textlogo{
+    display: flex;
+    align-items: center;
+}
+
+.header_logo{
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-left: 11px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.nav_link{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 65px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+.nav_link:hover{
+    color: beige;
+}
+
+#menu{
+    display: none;
+}
+.nav-header{
+    width: 100%;
+    margin-left: 22%;
+}
+
+/* Media for icon apear */
+@media screen and (max-width:1380px){
+    .nav_link{
+        display: none;
+    }
+    #menu{
+        float: right;
+        display: block;
+        color: #FFFFFF;
+        font-size: 25px;
+        margin-right: -10px;
+        
+    }
+}
+
+/* Main block of headpage*/
+
+.main_middle{
+    width: 100%;
+    display: flex;
+}
+
+.main_middle{
+    height: 305px;
+}
+.social_link{
+    display:grid;
+    margin-left: 4%;
+    align-items: initial;
+    padding-left:0;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.norway-title{
+    width: 100hv;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 250px;
+    line-height: 305px;
+    background: linear-gradient(47.06deg, #000000 -3.87%, rgba(255, 255, 255, 0) 36.89%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.explore{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.55em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.scroll{
+    margin-right: 4%;
+    padding:20px
+}
+
+
+/* Navigation links bottom*/
+
+.nav_container{
+    width: 100%;
+    height: 108px;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.bottom_nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left:300px;
+    padding-right: 300px;
+}
+
+.nav_link_bottom{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.nav_link_bottom:hover{
+        color: beige;
+}
+
+
+/* Navigation links bottom*/
+
+
+
+
+.container_photo{
+    display: flex;
+    justify-content: center;
+}
+.imgphoto{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+
+/* titiles of chapters*/
+
+.chapter_title{
+    text-align: center;
+    font-family: 'Montserrat'; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.7em;
+    color: #474747;
+}
+
+.chapter_title_bot{
+    margin-top: 27px;
+    margin-bottom: 111px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: #2D2D2D;
+}
+
+/* titiles of chapters*/
+
+.container_section{
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+}
+
+.container_aboutus{
+    padding-left: 222px;
+    padding-top: 150px;
+    padding-right: 222px;
+    padding-bottom: 0px;
+}
+
+
+/* section about us*/
+
+
+h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-transform: capitalize;
+    color: #3D3D3D;
+}
+span{
+    margin-right: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+        color: #9B9B9B;
+}
+
+.aboutus_discript{  margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: lowercase;
+    color: #6D6D6D;
+}
+
+
+.container_aboutus_bot{
+    display: flex;
+}
+.container_aboutus_botinfo{
+    padding-left: 93px;
+}
