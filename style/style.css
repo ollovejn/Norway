@@ -185,7 +185,7 @@ h1{
 .nav_container{
     width: 100%;
     height: 108px;
-    padding-top: 200px;
+    padding-top: 10%;
     margin-left: auto;
     margin-right: auto
 }
@@ -195,6 +195,15 @@ h1{
     justify-content: space-between;
     padding-left:300px;
     padding-right: 300px;
+}
+.nav_plan_trip{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
 
 .nav_link_bottom{
@@ -211,11 +220,45 @@ h1{
 .nav_link_bottom:hover{
         color: beige;
 }
+.seemore{
+    float: left;
+    padding-left: 70px;
+    writing-mode: vertical-rl;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    
+}
+.number{
+    float: right;
+    padding-right: 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
 
-
+.number_small{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
 /* Navigation links bottom*/
 
 
+/* Container photo*/
 
 
 .container_photo{
@@ -225,8 +268,26 @@ h1{
 .imgphoto{
     margin-left: 12px;
     margin-right: 12px;
+} 
+
+.act_photo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
 }
 
+.act_numer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* Container photo*/
 
 
 /* titiles of chapters*/
@@ -264,16 +325,14 @@ h1{
 }
 
 .container_aboutus{
-    padding-left: 222px;
+    padding-left: 220px;
     padding-top: 150px;
-    padding-right: 222px;
+    padding-right: 220px;
     padding-bottom: 0px;
 }
 
 
 /* section about us*/
-
-
 h3{
     font-family: 'Montserrat';
     font-style: normal;
@@ -292,11 +351,12 @@ span{
     line-height: 32px;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-        color: #9B9B9B;
+    color: #9B9B9B;
 }
 
-.aboutus_discript{  margin-top: 20px;
-    margin-left: 80px;
+.aboutus_discript{  
+    margin-top: 20px;     /* Вопрос по отступу от картинки этого абазца*/
+    margin-left: 100px; 
     margin-bottom: 50px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -308,9 +368,70 @@ span{
 }
 
 
-.container_aboutus_bot{
-    display: flex;
+.img_aboutus{
+    float: left;
+    padding-right: 93px;
 }
-.container_aboutus_botinfo{
-    padding-left: 93px;
+/* section about us*/
+
+
+
+/* section beauties*/
+.container_beauties{
+    height: 800px;                       /* Бред, спросить препода*/
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+
+.container_purcard{
+    float: left;
+    text-align: left;
+    margin: 30px;
+}
+
+.container_dtp{
+    float: left;
+    padding-left: 160px;
+    padding-top: 100px;
+}
+
+.destinationtex{
+    padding-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.price{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #959595;
+}
+
+/* section beauties*/
+
+
+/* section network*/
+.container_network{
+    float:none;
+    padding-left: 220px;
+    padding-top: 150px;
+    padding-right: 220px;
+    padding-bottom: 0px;
+}
+
+.partnerimg{
+    float:left;
+    align-items: center;
+    margin-left: 10px;
 }
