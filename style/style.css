@@ -435,3 +435,47 @@ span{
     align-items: center;
     margin-left: 10px;
 }
+
+
+
+
+
+/* section reviews*/
+.reviews_hum{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    font-feature-settings: 'liga' off;
+    color: #474747;
+}
+
+
+.people{font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+font-feature-settings: 'liga' off;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.corporation{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+font-feature-settings: 'liga' off;
+color: #FFFFFF;
+opacity: 0.7;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+/* section reviews*/
