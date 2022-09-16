@@ -53,7 +53,7 @@ table {
 /* navigation header
 */
 header{
-    display: flex;
+    
     align-items: center;
     padding-left: 4%;
     padding-top: 2.5%;
@@ -61,11 +61,12 @@ header{
     padding-bottom: 13%;
 }
 .nav-header ul li{
+    float: left;
     display: inline; 
 }
 
 .header_textlogo{
-    display: flex;
+    
     align-items: center;
 }
 
@@ -125,7 +126,7 @@ header{
 
 .main_middle{
     width: 100%;
-    display: flex;
+    float:none;
 }
 
 .main_middle{
@@ -192,8 +193,7 @@ h1{
 }
 
 .bottom_nav{
-    display: flex;
-    justify-content: space-between;
+    float: left;
     padding-left:300px;
     padding-right: 300px;
 }
@@ -263,8 +263,7 @@ h1{
 
 
 .container_photo{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
 }
 .imgphoto{
     margin-left: 12px;
